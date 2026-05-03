@@ -73,11 +73,10 @@ export default function OpeningPreview() {
             <h2 className="font-fraunces text-4xl text-navy mb-2 tracking-tight">Come Visit Us</h2>
             <p className="text-charcoal/60 text-sm font-dm-sans mb-4">{ADDRESS}</p>
 
-            {/* TODO: Owner to replace with real Google Maps embed */}
             <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-navy/5 border border-navy/10">
               <iframe
                 title="Big Fry location map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9707.0!2d1.1122!3d52.5710!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9eb80e4e4e4e5%3A0x0!2sWymondham%2C+Norfolk!5e0!3m2!1sen!2suk!4v1"
+                src="https://maps.google.com/maps?q=Wymondham,+Norfolk,+NR18&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 className="absolute inset-0 w-full h-full"
                 style={{ border: 0 }}
                 allowFullScreen

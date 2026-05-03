@@ -12,7 +12,7 @@ interface Props {
 export default function CounterAnimation({ target, suffix = "", prefix = "", duration = 1800 }: Props) {
   const [count, setCount] = useState(0)
   const ref = useRef<HTMLSpanElement>(null)
-  const inView = useInView(ref, { once: true, margin: "-100px" })
+  const inView = useInView(ref, { once: true, amount: 0.1 })
 
   useEffect(() => {
     if (!inView) return

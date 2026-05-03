@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-cream/30 font-dm-sans">
-          <span>© {new Date().getFullYear()} Big Fry Wymondham. All rights reserved.</span>
+          <span>© 2005–{new Date().getFullYear()} Big Fry Wymondham. All rights reserved.</span>
           <span>All food fried in beef dripping. Prices subject to change.</span>
         </div>
       </div>

@@ -36,7 +36,9 @@ export default function Hero() {
 
   return (
     <section ref={heroRef} className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-navy">
-      <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-60" src="/hero.mp4" aria-hidden="true" />
+      <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-60" aria-hidden="true">
+        <source src="/hero.mp4" type="video/mp4" />
+      </video>
 
       <div className="absolute inset-0 bg-gradient-to-b from-navy/40 via-navy/30 to-navy/70" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_40%,rgba(232,181,71,0.08),transparent)]" />
@@ -69,11 +71,10 @@ export default function Hero() {
           EST. 2005 · Wymondham, Norfolk
         </motion.p>
 
-        <h1 className="font-fraunces text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-cream leading-[0.95] tracking-tight mb-8">
+        <h1 className="font-fraunces text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-cream leading-[0.95] tracking-tight mb-8 flex flex-wrap justify-center gap-x-[0.22em]">
           {WORDS.map((word, i) => (
             <motion.span
               key={i}
-              className="inline-block mr-[0.2em] last:mr-0"
               initial={{ opacity: 0, y: 48, rotateX: -20 }}
               animate={{ opacity: 1, y: 0, rotateX: 0 }}
               transition={{ duration: 0.7, delay: 0.4 + i * 0.1, ease: [0.16, 1, 0.3, 1] }}
