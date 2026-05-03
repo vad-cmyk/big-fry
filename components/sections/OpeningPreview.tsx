@@ -76,7 +76,7 @@ export default function OpeningPreview() {
             <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-navy/5 border border-navy/10">
               <iframe
                 title="Big Fry location map"
-                src="https://maps.google.com/maps?q=Wymondham,+Norfolk,+NR18&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=36+Market+St,+Wymondham+NR18+0BB&t=&z=16&ie=UTF8&iwloc=&output=embed"
                 className="absolute inset-0 w-full h-full"
                 style={{ border: 0 }}
                 allowFullScreen

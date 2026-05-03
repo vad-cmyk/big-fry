@@ -1,8 +1,7 @@
 export const PHONE = "01953 603210"
 export const PHONE_HREF = "tel:01953603210"
 
-// TODO: Owner to confirm exact address
-export const ADDRESS = "Wymondham, Norfolk, NR18"
+export const ADDRESS = "36 Market St, Wymondham NR18 0BB"
 
 export const NAV_LINKS = [
   { href: "/", label: "Home" },
