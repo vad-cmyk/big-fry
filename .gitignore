@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# env files
+.env
+.env.local
+.env.*.local
+
+# build
+dist/
+build/
+
+# OS
+.DS_Store
+
+# debug
+npm-debug.log*
+
+# misc
+*.tsbuildinfo
+
+# Playwright debug artifacts
+.playwright-mcp/
+*.png
+
+# Raw video uploads (served from public/ instead)
+1777841143987-yxewlsr0gh.mp4
+1777841823161-qndtulbggv.mp4
