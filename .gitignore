@@ -26,6 +26,8 @@ npm-debug.log*
 # Playwright debug artifacts
 .playwright-mcp/
 *.png
+!app/icon.png
+!public/*.png
 
 # Raw video uploads (served from public/ instead)
 1777841143987-yxewlsr0gh.mp4
